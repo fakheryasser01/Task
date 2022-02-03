@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 252.626 s <<< FAILURE! - in TestSuite
+appTests.AboutPoemPageTest.verifyAboutPoemOpensBottomSheetSuccessfully  Time elapsed: 50.7 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@text='Ù‡Ù†Ø¯Ø§ÙˆÙŠ Ù‚ØµØ§Ø¦Ø¯'] (tried for 50 second(s) with 1000 milliseconds interval)
+	at appTests.AboutPoemPageTest.verifyAboutPoemOpensBottomSheetSuccessfully(AboutPoemPageTest.java:31)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KNRI3NA5', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.nagwa.poems.ui.main.Spl..., appPackage: com.nagwa.poems, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.nagwa.poems.ui.main.Spl..., appPackage: com.nagwa.poems, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Android Emulator, platformName: android}, deviceApiLevel: 26, deviceManufacturer: HUAWEI, deviceModel: BAH2-L09, deviceName: KMSNU20625103963, deviceScreenDensity: 320, deviceScreenSize: 1200x1920, deviceUDID: KMSNU20625103963, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 48, takesScreenshot: true, viewportRect: {height: 1804, left: 0, top: 48, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 7ec3c3c1-7b1d-470f-a5a1-3cac775beef4
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Ù‡Ù†Ø¯Ø§ÙˆÙŠ Ù‚ØµØ§Ø¦Ø¯']}
+	at appTests.AboutPoemPageTest.verifyAboutPoemOpensBottomSheetSuccessfully(AboutPoemPageTest.java:31)
+
+appTests.AboutPoemPageTest.verifyPoemHintSectionAppearsSuccessfully  Time elapsed: 50.33 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@text='Ù‡Ù†Ø¯Ø§ÙˆÙŠ Ù‚ØµØ§Ø¦Ø¯'] (tried for 50 second(s) with 1000 milliseconds interval)
+	at appTests.AboutPoemPageTest.verifyPoemHintSectionAppearsSuccessfully(AboutPoemPageTest.java:56)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KNRI3NA5', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.nagwa.poems.ui.main.Spl..., appPackage: com.nagwa.poems, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.nagwa.poems.ui.main.Spl..., appPackage: com.nagwa.poems, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Android Emulator, platformName: android}, deviceApiLevel: 26, deviceManufacturer: HUAWEI, deviceModel: BAH2-L09, deviceName: KMSNU20625103963, deviceScreenDensity: 320, deviceScreenSize: 1200x1920, deviceUDID: KMSNU20625103963, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 48, takesScreenshot: true, viewportRect: {height: 1804, left: 0, top: 48, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 7ec3c3c1-7b1d-470f-a5a1-3cac775beef4
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Ù‡Ù†Ø¯Ø§ÙˆÙŠ Ù‚ØµØ§Ø¦Ø¯']}
+	at appTests.AboutPoemPageTest.verifyPoemHintSectionAppearsSuccessfully(AboutPoemPageTest.java:56)
+
+appTests.AboutPoemPageTest.verifyPoetHintSectionAppearsSuccessfully  Time elapsed: 50.233 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@text='Ù‡Ù†Ø¯Ø§ÙˆÙŠ Ù‚ØµØ§Ø¦Ø¯'] (tried for 50 second(s) with 1000 milliseconds interval)
+	at appTests.AboutPoemPageTest.verifyPoetHintSectionAppearsSuccessfully(AboutPoemPageTest.java:82)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KNRI3NA5', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.nagwa.poems.ui.main.Spl..., appPackage: com.nagwa.poems, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.nagwa.poems.ui.main.Spl..., appPackage: com.nagwa.poems, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Android Emulator, platformName: android}, deviceApiLevel: 26, deviceManufacturer: HUAWEI, deviceModel: BAH2-L09, deviceName: KMSNU20625103963, deviceScreenDensity: 320, deviceScreenSize: 1200x1920, deviceUDID: KMSNU20625103963, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 48, takesScreenshot: true, viewportRect: {height: 1804, left: 0, top: 48, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 7ec3c3c1-7b1d-470f-a5a1-3cac775beef4
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Ù‡Ù†Ø¯Ø§ÙˆÙŠ Ù‚ØµØ§Ø¦Ø¯']}
+	at appTests.AboutPoemPageTest.verifyPoetHintSectionAppearsSuccessfully(AboutPoemPageTest.java:82)
+
+appTests.AboutPoemPageTest.verifyUserCanCloseAboutPoemSuccessfully  Time elapsed: 51.075 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@text='Ù‡Ù†Ø¯Ø§ÙˆÙŠ Ù‚ØµØ§Ø¦Ø¯'] (tried for 50 second(s) with 1000 milliseconds interval)
+	at appTests.AboutPoemPageTest.verifyUserCanCloseAboutPoemSuccessfully(AboutPoemPageTest.java:107)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KNRI3NA5', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.nagwa.poems.ui.main.Spl..., appPackage: com.nagwa.poems, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.nagwa.poems.ui.main.Spl..., appPackage: com.nagwa.poems, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Android Emulator, platformName: android}, deviceApiLevel: 26, deviceManufacturer: HUAWEI, deviceModel: BAH2-L09, deviceName: KMSNU20625103963, deviceScreenDensity: 320, deviceScreenSize: 1200x1920, deviceUDID: KMSNU20625103963, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 48, takesScreenshot: true, viewportRect: {height: 1804, left: 0, top: 48, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 7ec3c3c1-7b1d-470f-a5a1-3cac775beef4
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Ù‡Ù†Ø¯Ø§ÙˆÙŠ Ù‚ØµØ§Ø¦Ø¯']}
+	at appTests.AboutPoemPageTest.verifyUserCanCloseAboutPoemSuccessfully(AboutPoemPageTest.java:107)
+

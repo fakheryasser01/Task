@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="F:/HindawiQasaed">
+        <classes>
+<!--            <class name="apiTest.SearchPoemsTest">-->
+<!--                <methods>-->
+<!--                    <include name="setBaseURI"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="appTests.AboutPoemPageTest">
+                <methods>
+                    <include name="verifyAboutPoemOpensBottomSheetSuccessfully"/>
+                    <include name="verifyPoemHintSectionAppearsSuccessfully"/>
+                    <include name="verifyPoetHintSectionAppearsSuccessfully"/>
+                    <include name="verifyUserCanCloseAboutPoemSuccessfully"/>
+                </methods>
+            </class>
+            <class name="appTests.BackgroundSoundsPageTest">
+                <methods>
+                    <include name="verifyTextOpensBackgroundSoundsSuccessfully"/>
+                    <include name="verifyArrowOpensBackgroundSoundsSuccessfully"/>
+                    <include name="verifyBackgroundSoundsTitleAppearsSuccessfully"/>
+                    <include name="verifyBackgroundSoundsBackArrowWorksSuccessfully"/>
+                    <include name="verifyAllBackgroundSoundsBAppearsSuccessfully"/>
+                    <include name="verifyBackgroundSoundsAppearsInOrderSuccessfully"/>
+                    <include name="verifyBackgroundSoundsLevelTextAppearsSuccessfully"/>
+                    <include name="verifyBackgroundSoundsSeekBarAppearsSuccessfully"/>
+                    <include name="verifyUserCanIncreaseBackgroundSoundsLevelSuccessfully"/>
+                    <include name="verifyUserCanDecreaseBackgroundSoundsLevelSuccessfully"/>
+                </methods>
+            </class>
+            <class name="appTests.HomePageTest">
+                <methods>
+                    <include name="verifySplashScreenAppearsSuccessfully"/>
+                    <include name="verifyHomePageOpensSuccessfully"/>
+                    <include name="verifyAppTitleAppearsSuccessfully"/>
+                    <include name="verifySearchIconAppearsSuccessfully"/>
+                    <include name="verifyPoemsCategoriesSectionAppearsSuccessfully"/>
+                    <include name="verifyPoemsCategoriesAppearsInArabicSuccessfully"/>
+                    <include name="verifyPoemsCategoriesTabsAppearInOrderSuccessfully"/>
+                    <include name="verifyPoemsTitlesAppearSuccessfully"/>
+                    <include name="verifyPoetsNamesAppearSuccessfully"/>
+                    <include name="verifyScrollingToPoemSuccessfully"/>
+                    <include name="verifyopenPoemFromHomePageSuccessfully"/>
+                    <include name="verifyPoemsCategoriesTabsAreClickableSuccessfully"/>
+                    <include name="verifyLoadingThePoemsRelatedToPoemsCategoriesSuccessfully"/>
+                    <include name="verifyOpenPoemFromCategoriesSuccessfully"/>
+                </methods>
+            </class>
+            <class name="appTests.MoreOptionsPageTest">
+                <methods>
+                    <include name="verifyShareBtnOpensShareOptionsSuccessfully"/>
+                    <include name="verifyAboutPoemSectionAppearsSuccessfully"/>
+                    <include name="verifyBackGroundSoundSectionTextAppearsSuccessfully"/>
+                    <include name="verifyBackGroundSoundSectionArrowAppearsSuccessfully"/>
+                    <include name="verifyDarKModeSectionTextAppearsSuccessfully"/>
+                    <include name="verifyDarkModeSwitchBtnAppearsSuccessfully"/>
+                    <include name="verifyUserCanOpenDarkModeSwitchBtnSuccessfully"/>
+                    <include name="verifyUserCanCloseDarkModeSwitchBtnSuccessfully"/>
+                    <include name="verifyDarkModeSwitchBtnIsTurnedOffByDefault"/>
+                </methods>
+            </class>
+            <class name="appTests.PoemPageTest">
+                <methods>
+                    <include name="verifyBackFromPoemDetailsAppearsSuccessfully"/>
+                    <include name="verifyBackFromPoemDetailsWorksSuccessfully"/>
+                    <include name="verifySharePoemAppearsSuccessfully"/>
+                    <include name="verifyMoreOptionBtnAppearsSuccessfully"/>
+                    <include name="verifyPoemTitleAppearsSuccessfully"/>
+                    <include name="verifyPoetNameAppearsSuccessfully"/>
+                    <include name="verifyPoemTitleSameAsTheSelectedAppearsSuccessfully"/>
+                    <include name="verifyPoetNameSameAsTheSelectedAppearsSuccessfully"/>
+                    <include name="verifyPlayPoemBtnAppearsSuccessfully"/>
+                    <include name="verifyAudioProgressTimeCounterAppearsSuccessfully"/>
+                    <include name="verifyAudioRemainingTimeCounterAppearsSuccessfully"/>
+                    <include name="verifyAudioWaveFormAppearsSuccessfully"/>
+                    <include name="verifyShareBtnOpenShareOptionsSuccessfully"/>
+                    <include name="verifyPoemLinesAppearsSuccessfully"/>
+                    <include name="verifyPlayPoemBtnWorksSuccessfully"/>
+                    <include name="verifyPausePoemBtnWorksSuccessfully"/>
+                    <include name="verifyResumePoemBtnWorksSuccessfully"/>
+                </methods>
+            </class>
+            <class name="appTests.SearchPageTest">
+                <methods>
+                    <include name="verifySearchBtnWorksSuccessfully"/>
+                    <include name="verifySearchIconAppearsSuccessfully"/>
+                    <include name="verifySearchCancelAppearsSuccessfully"/>
+                    <include name="verifySearchTextAppearsEmptyInOpeningSuccessfully"/>
+                    <include name="verifyUserWriteInSearchFieldSuccessfully"/>
+                    <include name="verifySearchResultsRelatedToSearchWord"/>
+                    <include name="verifyPoemOpeningFromSearchSuccessfully"/>
+                    <include name="verifyNoPoemLayoutAppearsSuccessfully"/>
+                    <include name="verifyCancelSearchWorksSuccessfully"/>
+                    <include name="verifyPoemCategoriseDisappearSuccessfully"/>
+                    <include name="verifyThatIsKeyboardAppearsWhenOpeningSearch"/>
+                    <include name="verifyPoemCategoriseAppearAfterCloseSearchSuccessfully"/>
+                </methods>
+            </class>
+<!--            <class name="appTests.UiTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyHomePageUI"/>-->
+<!--                    <include name="verifyCategoryPageUI"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>

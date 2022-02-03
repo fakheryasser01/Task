@@ -1,0 +1,9 @@
+apiTest\SearchPoemsTest.class
+appTests\SearchPageTest.class
+base\TestBase.class
+appTests\BackgroundSoundsPageTest.class
+appTests\PoemPageTest.class
+appTests\UiTest.class
+appTests\HomePageTest.class
+appTests\AboutPoemPageTest.class
+appTests\MoreOptionsPageTest.class
